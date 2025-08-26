@@ -14,14 +14,4 @@ echo $mensaje1 . "<br>";
 print($mensaje2 . "<br>");
 
 printf("En resumen: %s, %d años, %s, %s<br>", $nombre, $edad, $ciudad, PROFESION);
-
-echo "<br>Información de debugging:<br>";
-var_dump($nombre);
-echo "<br>";
-var_dump($edad);
-echo "<br>";
-var_dump($ciudad);
-echo "<br>";
-var_dump(PROFESION);
-echo "<br>";
 ?>
