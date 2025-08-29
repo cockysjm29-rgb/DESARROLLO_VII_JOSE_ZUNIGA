@@ -1,5 +1,5 @@
 <?php
-$nombre = "María";
+$nombre = "Marías";
 $edad = 30;
 $ciudad = "Madrid";
 
