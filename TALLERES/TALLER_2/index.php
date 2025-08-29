@@ -1,17 +1,11 @@
 <?php
-$nombre = "Marías";
-$edad = 30;
-$ciudad = "Madrid";
+$nombre = "Juan";
+$edad = 25;
+$altura = 1.75;
+$esEstudiante = true;
 
-// Definición de constante
-define("PROFESION", "Ingeniera");
-
-// Creación de mensaje usando diferentes métodos de concatenación e impresión
-$mensaje1 = "Hola, mi nombre es " . $nombre . " y tengo " . $edad . " años.";
-$mensaje2 = "Vivo en $ciudad y soy " . PROFESION . ".";
-
-echo $mensaje1 . "<br>";
-print($mensaje2 . "<br>");
-
-printf("En resumen: %s, %d años, %s, %s<br>", $nombre, $edad, $ciudad, PROFESION);
+echo "Nombre: $nombre<br>";
+echo "Edad: $edad<br>";
+echo "Altura: $altura<br>";
+echo "¿Es estudiante? " . ($esEstudiante ? "Sí" : "No");
 ?>
