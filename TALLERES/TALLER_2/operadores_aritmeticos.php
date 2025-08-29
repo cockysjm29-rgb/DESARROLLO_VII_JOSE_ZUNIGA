@@ -16,7 +16,7 @@ echo "Exponenciación (**): " . ($a ** $b) . "<br>";
 echo "Precedencia de operadores: " . (5 + 3 * 2) . "<br>";
 echo "Uso de paréntesis para cambiar la precedencia: " . ((5 + 3) * 2) . "<br>";
 
-// División entera
+// División entera con prueba
 echo "División entera (intdiv): " . intdiv($a, $b) . "<br>";
 
 // Incremento y decremento
