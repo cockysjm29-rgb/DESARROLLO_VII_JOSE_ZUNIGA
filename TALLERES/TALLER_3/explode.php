@@ -17,7 +17,7 @@ print_r($arrayPeliculas);
 
 // Bonus: Usa explode() con un límite
 $texto = "Uno,Dos,Tres,Cuatro,Cinco";
-$array = explode(",", $texto, 3);
+$array = explode(",", $texto, 4);
 
 echo "</br>Texto original: $texto</br>";
 echo "Array con límite:</br>";
