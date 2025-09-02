@@ -10,14 +10,14 @@ echo '¿$edad es un array? ' . (is_array($edad) ? "Sí" : "No") . "</br>";
 
 // Ejercicio: Crea tres variables: una que sea un array, otra que sea un string y otra que sea un número
 // Usa is_array() para verificar cada una de ellas
-$miArray = []; // Reemplaza esto con tu propio array
-$miString = ""; // Reemplaza esto con tu propio string
-$miNumero = 0; // Reemplaza esto con tu propio número
+$libros = ["La Biblia", "Don Quijote de la Mancha", "El Señor de los Anillos", "Harry Potter"]; // Reemplaza esto con tu propio array
+$escritor = "Miguel de Cervantes"; // Reemplaza esto con tu propio string
+$año = 1605; // Reemplaza esto con tu propio número
 
 echo "</br>Resultados del ejercicio:</br>";
-echo '¿$miArray es un array? ' . (is_array($miArray) ? "Sí" : "No") . "</br>";
-echo '¿$miString es un array? ' . (is_array($miString) ? "Sí" : "No") . "</br>";
-echo '¿$miNumero es un array? ' . (is_array($miNumero) ? "Sí" : "No") . "</br>";
+echo '¿$libros es un array? ' . (is_array($libros) ? "Sí" : "No") . "</br>";
+echo '¿$escritor es un array? ' . (is_array($escritor) ? "Sí" : "No") . "</br>";
+echo '¿$año es un array? ' . (is_array($año) ? "Sí" : "No") . "</br>";
 
 // Bonus: Usa is_array() en una función que acepte cualquier tipo de dato
 function procesarDato($dato) {
