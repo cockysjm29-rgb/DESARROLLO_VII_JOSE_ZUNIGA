@@ -10,7 +10,7 @@ function leerInventario($archivo) {
 // Ordenar el inventario alfabeticamente por nombre
 function ordenarInventario($inventario) {
     usort($inventario, function ($a, $b) {
-        return strcmp($a['nombre'], $b['nombre']);
+          return $b['precio'] <=> $a['precio'];        
     });
     return $inventario;
 }

@@ -1,1 +1,1 @@
-En este archivo encontrarás la referencia
+Este es un ejemplo de contenido para el archivo.</br>Esta es una nueva línea añadida al archivo.</br>

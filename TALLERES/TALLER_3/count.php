@@ -9,7 +9,7 @@ echo "Número de frutas: $numFrutas</br>";
 
 // Ejercicio: Crea un array con los nombres de tus 5 canciones favoritas
 // y usa count() para mostrar cuántas canciones hay en tu lista
-$misCanciones = ["Nada de ti", "Que Lio", "La Vuelta", "Oye como va", "Ay ay ay"]; // Reemplaza esto con tu array de canciones
+$misCanciones = ["Nada de ti", "Que Lio", "Ay ay ay", "Lluvia", "Baile Inolvidable", "Pedro Navaja"]; // Reemplaza esto con tu array de canciones
 $numCanciones = count($misCanciones);
 
 echo "</br>Número de canciones en mi lista: $numCanciones</br>";

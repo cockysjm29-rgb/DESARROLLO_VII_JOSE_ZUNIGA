@@ -16,9 +16,9 @@ echo "</br>Mi lista de países para visitar: $listaPaises</br>";
 
 // Bonus: Usa implode() con un array asociativo
 $persona = [
-    "nombre" => "Juan",
-    "edad" => 30,
-    "ciudad" => "Madrid"
+    "nombre" => "Marcos",
+    "edad" => 45,
+    "ciudad" => "Miami"
 ];
 $infoPersona = implode(" | ", $persona);
 

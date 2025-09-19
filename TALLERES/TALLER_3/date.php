@@ -1,6 +1,6 @@
 <?php
 // Ejemplo de uso de date()
-echo "Fecha actual: " . date("Y-m-d") . "</br>";
+echo "Fecha actual: " . date("D-m-y") . "</br>";
 echo "Hora actual: " . date("H:i:s") . "</br>";
 echo "Fecha y hora actuales: " . date("Y-m-d H:i:s") . "</br>";
 
