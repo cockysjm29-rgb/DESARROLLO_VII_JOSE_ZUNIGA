@@ -35,7 +35,7 @@ $total = calcular_total($subtotal, $descuento, $impuesto);
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Resumen de Compra</title>
+    <title>Membresias</title>
     <style>
         body { font-family: Arial, sans-serif; }
         table { border-collapse: collapse; width: 60%; margin: 20px auto; }
@@ -45,13 +45,14 @@ $total = calcular_total($subtotal, $descuento, $impuesto);
     </style>
 </head>
 <body>
-    <h2>Resumen de la Compra</h2>
+    <h2>Gimnasio Cuotas Mensuales</h2>
     <table>
         <tr>
-            <th>Producto</th>
-            <th>Cantidad</th>
-            <th>Precio Unitario ($)</th>
-            <th>Total ($)</th>
+            <th>Miembros</th>
+            <th>Cuota Base Membresia</th>
+            <th>Descuento Aplicado ($)</th>
+            <th>Seguro Medico ($)</th>
+            <th>Cuota Final a Pagar ($)</th>
         </tr>
         <?php foreach ($cliente as $producto => $cantidad): ?>
             <?php if ($cantidad > 0): ?>
@@ -61,7 +62,9 @@ $total = calcular_total($subtotal, $descuento, $impuesto);
                     <td><?php echo number_format($membresias[$producto], 2); ?></td>
                     <td><?php echo number_format($membresias[$producto] * $cantidad, 2); ?></td>
                 </tr>
-            <?php endif; ?>
+            <?php 
+        endif; 
+        ?>
         <?php endforeach; ?>
         <tr>
             <td colspan="3" style="text-align: right;"><strong>Subtotal</strong></td>
@@ -73,7 +76,7 @@ $total = calcular_total($subtotal, $descuento, $impuesto);
         </tr>
         <tr>
             <td colspan="3" style="text-align: right;"><strong>Impuesto (7%)</strong></td>
-            <td><?php echo number_format($impuesto, 2); ?></td>
+            <td><?php echo number_format($seguro, 2); ?></td>
         </tr>
         <tr>
             <td colspan="3" style="text-align: right;"><strong>Total a Pagar</strong></td>
