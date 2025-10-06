@@ -10,7 +10,8 @@ $inventario = [
 // 2. Función para mostrar el inventario
 function mostrarInventario($inv) {
     foreach ($inv as $producto => $info) {
-        echo "$producto: {$info['cantidad']} unidades, Precio: ${$info['precio']}\n";
+        //echo "$producto: {$info['cantidad']} unidades, Precio: ${$info['precio']}\n";
+          echo "$producto: {$info['cantidad']} unidades, Precio: {$info['precio']}\n";
     }
 }
 

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "titulo": "Implementar login",
+        "descripcion": "Crear formulario de login y backend",
+        "estado": "en_progreso",
+        "prioridad": 2,
+        "fechaCreacion": "2024-09-20",
+        "tipo": "desarrollo",
+        "lenguajeProgramacion": "PHP"
+    },
+    {
+        "id": 2,
+        "titulo": "Dise\u00f1ar logo",
+        "descripcion": "Crear logo para la aplicaci\u00f3n",
+        "estado": "en_progreso",
+        "prioridad": 3,
+        "fechaCreacion": "2024-09-21",
+        "tipo": "diseno",
+        "herramientaDiseno": "Illustrator"
+    },
+    {
+        "id": 3,
+        "titulo": "Pruebas de integraci\u00f3n",
+        "descripcion": "Realizar pruebas de integraci\u00f3n del m\u00f3dulo de usuarios",
+        "estado": "en_progreso",
+        "prioridad": 1,
+        "fechaCreacion": "2024-09-19",
+        "tipo": "testing",
+        "tipoTest": "integracion"
+    },
+    {
+        "id": 4,
+        "titulo": "Probar conexi\u00f3n a la BD",
+        "descripcion": "Realizar pruebas con mysql",
+        "estado": "en_progreso",
+        "prioridad": "4",
+        "fechaCreacion": "2025-09-24",
+        "tipo": "desarrollo",
+        "lenguajeProgramacion": "SQL"
+    },
+    {
+        "id": 5,
+        "titulo": "Pruebas de QA",
+        "descripcion": "Realizar pruebas de capacidad",
+        "estado": "en_progreso",
+        "prioridad": "5",
+        "fechaCreacion": "2025-09-24",
+        "tipo": "testing",
+        "tipoTest": "e2e"
+    },
+    {
+        "id": 6,
+        "titulo": "Perfil de IG",
+        "descripcion": "Creaci\u00f3n del perfil",
+        "estado": "en_progreso",
+        "prioridad": "2",
+        "fechaCreacion": "2025-09-24",
+        "tipo": "diseno",
+        "herramientaDiseno": "Instagram"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "titulo": "Cien años de soledad",
+        "autor": "Gabriela García Márquez",
+        "anioPublicacion": "1967",
+        "estado": "en_reparacion",
+        "fechaAdquisicion": "2023-01-15",
+        "tipo": "Libro",
+        "isbn": ""
+    },
+    {
+        "id": "2",
+        "titulo": "PRUEBA",
+        "autor": "PRUEBA",
+        "anioPublicacion": "2000",
+        "estado": "en_reparacion",
+        "fechaAdquisicion": "2022-12-13",
+        "tipo": "DVD",
+        "duracion": "250"
+    },
+    {
+        "id": 3,
+        "titulo": "amor de primavera",
+        "autor": "Aldair Isaac Archibold",
+        "anioPublicacion": "2025",
+        "estado": "prestado",
+        "fechaAdquisicion": "2025-10-06",
+        "tipo": "Libro",
+        "isbn": "ISB"
+    },
+    {
+        "id": 4,
+        "titulo": "Hunger Gamer",
+        "autor": "Jessica Rowlings",
+        "anioPublicacion": "1957",
+        "estado": "prestado",
+        "fechaAdquisicion": "2026-10-21",
+        "tipo": "Revista",
+        "numeroEdicion": "456"
+    }
+]
