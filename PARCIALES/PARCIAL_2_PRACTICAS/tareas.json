@@ -1,5 +1,5 @@
-[
-    {
+{
+    "0": {
         "id": 1,
         "titulo": "Implementar login",
         "descripcion": "Crear formulario de login y backend",
@@ -9,7 +9,7 @@
         "tipo": "desarrollo",
         "lenguajeProgramacion": "PHP"
     },
-    {
+    "1": {
         "id": 2,
         "titulo": "Dise\u00f1ar logo",
         "descripcion": "Crear logo para la aplicaci\u00f3n",
@@ -19,7 +19,7 @@
         "tipo": "diseno",
         "herramientaDiseno": "Illustrator"
     },
-    {
+    "2": {
         "id": 3,
         "titulo": "Pruebas de integraci\u00f3n",
         "descripcion": "Realizar pruebas de integraci\u00f3n del m\u00f3dulo de usuarios",
@@ -29,17 +29,7 @@
         "tipo": "testing",
         "tipoTest": "integracion"
     },
-    {
-        "id": 4,
-        "titulo": "Probar conexi\u00f3n a la BD",
-        "descripcion": "Realizar pruebas con mysql",
-        "estado": "en_progreso",
-        "prioridad": "4",
-        "fechaCreacion": "2025-09-24",
-        "tipo": "desarrollo",
-        "lenguajeProgramacion": "SQL"
-    },
-    {
+    "4": {
         "id": 5,
         "titulo": "Pruebas de QA",
         "descripcion": "Realizar pruebas de capacidad",
@@ -49,7 +39,7 @@
         "tipo": "testing",
         "tipoTest": "e2e"
     },
-    {
+    "5": {
         "id": 6,
         "titulo": "Perfil de IG",
         "descripcion": "Creaci\u00f3n del perfil",
@@ -59,4 +49,4 @@
         "tipo": "diseno",
         "herramientaDiseno": "Instagram"
     }
-]
+}
